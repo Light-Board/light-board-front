@@ -13,6 +13,7 @@ const textmap = {
   register: "회원가입",
 };
 
+// eslint-disable-next-line react/prop-types
 const Authform = ({ type }) => {
 
   const txt = textmap[type];
